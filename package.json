@@ -1,0 +1,21 @@
+{
+  "name": "nestjs-davegray",
+  "packageManager": "yarn@4.14.1",
+  "scripts": {
+    "l01:start:dev": "yarn workspace l01 run start:dev",
+    "l02:start:dev": "yarn workspace l02 run start:dev",
+    "l03:start:dev": "yarn workspace l03 run start:dev",
+    "l04:start:dev": "yarn workspace l04 run start:dev",
+    "l05:start:dev": "yarn workspace l05 run start:dev",
+    "l06:start:dev": "yarn workspace l06 run start:dev"
+  },
+  "dependencies": {
+    "@nestjs/cli": "^11.0.23"
+  },
+  "workspaces": [
+    "l*"
+  ],
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
